@@ -26,7 +26,7 @@ const AddCoffee = () => {
     };
     console.log(newCoffee);
 
-    //send data to server
+    //send data to server and database
     fetch("http://localhost:5000/coffee", {
       method: "POST",
       headers: {

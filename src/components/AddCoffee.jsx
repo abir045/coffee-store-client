@@ -27,7 +27,7 @@ const AddCoffee = () => {
     console.log(newCoffee);
 
     //send data to server and database
-    fetch("http://localhost:5000/coffee", {
+    fetch("https://coffee-store-server-one-bice.vercel.app/coffee", {
       method: "POST",
       headers: {
         "content-type": "application/json",
